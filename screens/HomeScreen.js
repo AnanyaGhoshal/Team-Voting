@@ -11,7 +11,7 @@ import {
 import AppHeader from '../components/AppHeader';
 import db from '../config';
 
-export default class HomeScreen extends Component {
+export default class HomeScreen extends React.Component {
 
   teamA(){
    db.ref('/').update({
